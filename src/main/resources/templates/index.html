@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>나는 어떤 MBTI일까?</title>
+  <link rel="icon" href="/img/icon.png">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/qna.css">
+  <link rel="stylesheet" href="/css/result.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <section id="main">
+      <h1 class="main_txt">MBTI TEST<br>나는 어떤 성격일까?</h1>
+      <img id="main_img" class="mt-4" src="./img/start.png" alt="">
+      <button type="button" class="btn_start green" onclick="start();">시작하기</button>
+      <div class="from">
+        <p>만든사람: 장유동</p>
+        <p>contact: <a href="">parefaro@gmail.com</a></p>
+      </div>
+
+    </section>
+    <section id="qna">
+      <input type="hidden" id="page" value="0" />
+      <input type="hidden" id="E" value="0" />
+      <input type="hidden" id="I" value="0" />
+      <input type="hidden" id="S" value="0" />
+      <input type="hidden" id="N" value="0" />
+      <input type="hidden" id="T" value="0" />
+      <input type="hidden" id="F" value="0" />
+      <input type="hidden" id="P" value="0" />
+      <input type="hidden" id="J" value="0" /> 
+      <div class="question">
+        <div class="page"><span id="cnt">1</span>/20</div>
+        <h2 id="title">아무도 없는 집에 들어 가면 어때?<br>첫번째 문제</h2>
+      </div>
+      <div class="answers">
+        <a href="javascript:select();" id="A" style="text-decoration: none;">
+          <div class="btn_select">너무 외로워. 깜깜하고 너무 조용해 "</div>
+        </a>
+        <a href="javascript:select();" id="B" style="text-decoration: none;">
+          <div class="btn_select mt-4">와~드디어 나만의 시간이다. 편하고 행복하다.</div>
+        </a>
+      </div>
+    </section>
+    <section id="result">
+      <div class="fin">
+        <img id="result_img" class="mt-4" src="" alt="">
+        <div class="form">
+          <a href="https://www.16personalities.com/ko"><p>더 자세한 검사를 하고 싶으시다면 클릭</p></a>
+        </div>
+        <button type="button" class="btn_restart green" onclick="retest();">테스트 다시하기</button>
+      </div>
+    </section>
+
+    <script src="/js/data.js" charset="utf-8"></script>
+    <script src="/js/start.js" charset="utf-8"></script>
+    
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.js"
+      integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E="
+      crossorigin="anonymous"></script>
+  </div>
+</body>
+</html>

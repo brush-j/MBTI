@@ -1,0 +1,40 @@
+#result{
+    display: none;
+}
+
+#result .fin {
+    display: none;
+}
+
+#result_img {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+#result .from {
+    color: #828282;
+    margin-top: 52px;
+}
+
+#result .btn_restart {
+    width: 255px;
+    height: 60px;
+    border-radius: 100em;
+    font-weight: 450;
+    border-radius: 8px;
+    border: 0;
+
+    margin: 15px auto auto auto;
+}
+
+#result .btn_link {
+    width: 255px;
+    height: 40px;
+    border-radius: 100em;
+    font-weight: 450;
+    border-radius: 8px;
+    border: 1px solid #EEEEEE;
+
+    margin: 10px auto;
+}
+

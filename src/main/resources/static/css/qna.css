@@ -1,0 +1,42 @@
+#qna {
+  display: none;
+  margin: auto 30px;
+}
+
+.question {
+  padding-top: 80px;
+  line-height: 1.44;
+}
+
+.page {
+  color: #4abbf3;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.answers {
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+
+.btn_select {
+  width: auto;
+  background: #F9F9F9;
+  border: 1px solid #EEEEEE;
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-weight: 500;
+  padding: 34px 18px 34px 26px;
+  font-size: 16px;
+  line-height: 1.44;
+  text-align: center;
+  cursor: pointer;
+  color: #000;
+}
+
+@media (hover: hover) {
+  .btn_select:hover {
+    background-color: #7FFFD4;
+    color: #000;
+  }
+}
